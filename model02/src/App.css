@@ -1,0 +1,48 @@
+body{
+  background-color: #8f3263 !important;
+
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around ;
+ }
+.product {
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid #333;
+  background-color: black;
+  color: #fff;
+}
+.product img{
+  width: 300px;
+  height: 300px;
+   }
+.icon-apple {
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around !important;
+  border-bottom: 1px solid #333;
+  padding: 10px 0px;
+
+}
+.Productname {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: rgb(46, 46, 116);
+ padding: 20px 0px;  
+ }
+ .Productname button{
+  border: none;
+  border-radius: 5px;
+ }
+.icon-heart {
+  color: #fff;
+}
+.cart{
+ color: rgb(23, 187, 94);
+}
